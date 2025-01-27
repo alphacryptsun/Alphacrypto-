@@ -1,46 +1,28 @@
-Overview of Cryptographic Method
-
-1. Objective:
-A cryptographic system that is loaded when ac is entered and:
-
-Processes words/phrases by pushing all letters together.
-
-Applies deciphering rules (both primitive shape-based and acronym-based).
-
-Outputs modified character sets according to defined rules.
-
-
-
-2. Core Features:
-
-Capitalization rules (default or customizable).
-
-Support for primitive shape-based transformations (e.g., "T" = cross, mast).
-
-Acronym deciphering using user-supplied keys.
-
-Menu-driven interaction with rules and methods.
-
-
-
-
-
----
-
-Main Menu
-
-Display:
+Overview of cryptographic method. with general software lay out and structuring.
+__________________________________
 
 Main Menu
 
 Select an option:
 
-1. Enter Alpha Character Set  
-2. Enter Numerical Value  
-3. Set Deciphering Rules  
-4. Choose Preset Decipher  
-5. Set Custom Capitalization Rule  
+1. Enter Alpha Character Set
+
+
+2. Enter Numerical Value
+
+
+3. Set Deciphering Rules
+
+
+4. Choose Preset Decipher
+
+
+5. Set Custom Capitalization Rule
+
+
 6. Exit
+
+
 
 
 ---
@@ -50,33 +32,120 @@ Select an option:
 Prompt:
 "Please enter the alpha character set you'd like to work with (letters only)."
 
-Behavior:
+Behavior with Updated Rules:
 
-Takes user input.
-
-Applies selected deciphering rules in prioritized order:
-
-1. Capitalization Rule
+1. Input: Takes user input (e.g., "Test").
 
 
-2. Pushed Together Rule
+2. Default Rules Applied in this Order:
 
+Pushed Together Rule
 
-3. Other active rules (e.g., Reverse, Gift).
+Capitalization Rule
 
+Reverse Rule
 
 
 
-Example Output:
 
-Input: Hello World.
 
-Applied Rules:
+---
 
-Default Capitalization: heLLoWorLd.
+Example Interaction (Updated Rules):
 
-Pushed Together: heLLoWorLd.
+Input: "Test"
 
+Transformations:
+
+
+1. Pushed Together Rule:
+
+Removes spaces from the input (if any).
+
+Input remains "Test".
+
+
+
+2. Capitalization Rule:
+
+Default: Custom rule (capitalize E, Y, A, and L only).
+
+Forward: "tEst"
+
+Backward: "tsEt"
+
+
+
+3. Reverse Rule:
+
+Forward: "tEst"
+
+Backward: "tsEt"
+
+
+
+
+Output:
+
+Forward: "tEst"
+
+Backward: "tsEt"
+
+
+
+---
+
+Sub-menu after entering character set:
+
+1. Select a Letter
+
+Choose a letter for further operations like adding, removing, or changing.
+
+
+
+2. Add Letter
+
+Specify a letter to be added to the current character set and its position.
+
+
+
+3. Remove Letter
+
+Select a letter to be removed from the current character set.
+
+
+
+4. Change Working Alphacharacter Set
+
+Switch between available sets (Forward, Reverse, Forward2, Reverse2, etc.).
+
+
+
+5. List All Deciphers
+
+View the complete catalog of all transformations performed.
+
+
+
+6. New Capitalization Rule
+
+Set a new rule (e.g., All Caps, Custom).
+
+
+
+7. Undo Last Change
+
+Revert the last modification.
+
+
+
+8. View Undo History
+
+Review the history of all transformations.
+
+
+
+9. Go Back to Main Menu
 
 
 
@@ -85,14 +154,26 @@ Pushed Together: heLLoWorLd.
 
 2. Enter Numerical Value
 
-Prompt:
-"Enter a numerical value for processing."
+1. Alpha-to-Numeric Conversion
 
-Features:
+"T" → 7 → "seven"
 
-Optional interaction with deciphering rules.
+"E" → 3 → "three"
 
-Supports numeric transformations or combining numbers with alpha character sets.
+Result: "seven three seven t"
+
+
+
+2. Embed Today's Date
+
+Adds current date dynamically (e.g., "27th January 2025").
+
+
+
+3. Custom Numerical Transformations
+
+Based on predefined or user-defined rules.
+
 
 
 
@@ -101,66 +182,23 @@ Supports numeric transformations or combining numbers with alpha character sets.
 
 3. Set Deciphering Rules
 
-Display (interactive menu to toggle rules):
+Default Active Rules (Updated):
 
-Set Deciphering Rules  
+1. ! Pushed Together Rule (First Priority)
 
-Active rules are marked with (#).  
-
-1. Default Capitalization Rule #  
-2. Pushed Together Rule #  
-3. Gift Rule  
-4. Reverse Rule  
-5. Dictionary Rule  
-6. Acronym Rule  
-7. Go Back to Main Menu
-
-Explanation of Rules:
-
-1. Capitalization Rule (# by default):
-
-Default: All lowercase except E, Y, A, and L.
-
-Prompts for customization:
-"Please enter letters to exclude from lowercase processing (e.g., 'EYAL')."
+Ensures no spaces in the character set.
 
 
 
-2. Pushed Together Rule (# by default):
+2. ! Capitalization Rule (Second Priority)
 
-Merges all characters into a single string.
-
-
-
-3. Gift Rule:
-
-Converts specific patterns (e.g., "P, B, P") to symbols like musical notes.
+Default: Capitalize E, Y, A, and L.
 
 
 
-4. Reverse Rule:
+3. ! Reverse Rule (Third Priority)
 
-Processes both forward and backward outputs.
-
-Tracks all working sets: Forward ↔ Backward ↔ Forward2 ↔ Backward2.
-
-
-
-5. Dictionary Rule:
-
-Identifies dictionary words within the alpha character set.
-
-Marks valid words with *.
-
-Optional: Finds near-matching words (e.g., missing letters).
-
-
-
-6. Acronym Rule:
-
-Scans for non-dictionary acronyms.
-
-Transforms acronyms into meanings using user-supplied keys.
+Displays both forward and backward character sets.
 
 
 
@@ -170,46 +208,31 @@ Transforms acronyms into meanings using user-supplied keys.
 
 4. Choose Preset Decipher
 
-Display (interactive menu for preset methods):
-
-Choose Preset Decipher  
-
-1. Straight Tear Down (Automatic)  
-2. Straight Tear Down (Interactive)  
-3. Rocking Method (Automatic)  
-4. Rocking Method (Interactive)  
-5. Gift Rocking Method  
-6. Go Back to Main Menu
-
-Deciphering Methods:
-
 1. Straight Tear Down (Automatic):
 
-Automatically breaks down the alpha character set using predefined logic.
+Automatically applies a linear breakdown.
+
+Input: "tEst" → Output: "t", "E", "s", "t".
 
 
 
 2. Straight Tear Down (Interactive):
 
-Prompts the user to guide the breakdown process.
+Allows the user to decide how the character set is broken down interactively.
 
 
 
 3. Rocking Method (Automatic):
 
-Alternates processing between forward and backward transformations.
+Applies an automatic rocking pattern to the input.
+
+Input: "tEst" → Output: "tE", "sT".
 
 
 
 4. Rocking Method (Interactive):
 
-Similar to automatic but allows user input during the process.
-
-
-
-5. Gift Rocking Method:
-
-Combines Gift Rule with Rocking Method transformations.
+User inputs how the rocking pattern should apply.
 
 
 
@@ -217,193 +240,108 @@ Combines Gift Rule with Rocking Method transformations.
 
 ---
 
-5. Set Custom Capitalization Rule
+Updated Example Workflow
 
-Purpose:
-Allows customization of the capitalization rule applied to the alpha character set.
+Step 1: Input
 
-Prompt:
-"Enter the letters you want to exclude from lowercase processing (e.g., 'EYAL')."
+Input: "Test"
 
-Behavior:
+1. Pushed Together Rule:
 
-Saves custom rules.
+Input remains "Test".
 
-Applies rules globally to all inputs before other transformations.
+
+
+2. Capitalization Rule:
+
+Forward: "tEst"
+
+Backward: "tsEt".
+
+
+
+3. Reverse Rule:
+
+Forward: "tEst"
+
+Backward: "tsEt".
+
+
+
+
+Output:
+
+Forward: "tEst"
+
+Backward: "tsEt"
+
+
+
+---
+
+Step 2: Rocking Method
+
+Input: "tEst"
+
+Output:
+
+Forward2: "tEst" → "tE", "sT"
+
+Backward2: "tsEt" → "ts", "Et"
 
 
 
 
 ---
 
-Interactive Workflow: Rules and Outputs
+Step 3: Add Letter
 
-Rule Processing Priority:
+Action: Add "E" between "S" and "T".
 
-1. Capitalization Rule (always first).
+Output:
 
+Forward2: "tEsEt"
 
-2. Pushed Together Rule.
-
-
-3. Other Active Rules (Gift, Reverse, Dictionary, Acronym).
-
-
-
-Output Tracking:
-
-All changes are logged and displayed in a Chronological Decipher List:
-
-Includes original input and all intermediate outputs.
-
-
-
-Example Interaction:
-
-1. Input:
-
-Entered: Hello World.
-
-
-
-2. Applied Rules (default settings):
-
-Capitalization: heLLoWorLD.
-
-Pushed Together: heLLoWorLD.
-
-Reverse Rule:
-
-Forward: heLLoWorLD.
-
-Backward: DLroWLLhe.
-
-
-
-
-3. User Modifications:
-
-Select Letter: L.
-
-Apply Shape-Based Decipher:
-
-Selected Shape: "Cross".
-
-Updated Outputs:
-
-Forward: croSsheLLoWorLD.
-
-Backward: DLroWLLhSSorc.
-
-
-
+Backward2: "tsEts"
 
 
 
 
 ---
 
-Custom Features
+Updated Shape Decoders
 
-1. Dynamic Changes:
+a man, apple, archway, diamondshape, star
+b butterfly, glasses, dualloops, doubleloop, bowtie
+c crescentmoon, openclaw, pacman, crescenthookedeye
+d doorway, halfcircle, shield, shieldedwall, tower
+e rake, comb, threeprongedfork, windmillblade, leaf
+f flagpole, divider, partofaladder, letterf, anglebar
+g spiral, hook, snailshell, spiralcurve, coil
+h ladder, bridge, uprightgoalpost, twinpillars, gateway
+i pillar, needle, candle, singleupright, staff
+j hook, fishingrod, shepherdscrook, hookedcane, shepherdsstaff
+k kite, openscissors, branchingfork, branchingtree, fork
+l rightangle, lbracket, uprightpillar, uprightsupport, l
+m splitpillars, arches, twohumps, archway, peak, mountain
+n lightningbolt, zigzag, bridgeslope, lightningzigzag, bolt
+o sun, zero, circle, closedring, orb
+p flag, balloononastick, spoon, flagpoleribbon, clip
+q magnifyingglass, balloonwithastring, circularloopwithatail, circularframe, magnifier
+r walkingstick, peggedflag, halfbirdshape, walkingstick, pole, arch
+s serpent, waves, ribbon, sinewave, serpentine
+t cross, console, screw, tintersection, crosst
+u horseshoe, cup, arch, horseshoehook
+v openscissors, arrowhead, funnel, vshapedarrow, funnel
+w twoarches, waves, mountains, mountainpeaks, crest
+x crossroads, intersection, scissors, crisscross, grid, web
+y sling, wishbone, branchingpath, treebranch, ypath
+z zigzag, lightningbolt, stairs, zshaped, zigzagpath
 
-Retroactively applies rule changes across all outputs.
-
-Adjustments to capitalization or working set (Forward ↔ Backward, etc.) propagate automatically.
-
-
-
-2. Interactive Options for Letter Modifications:
-
-Add Letter:
-
-Prompts for placement (e.g., between letters X and Y).
-
-
-Remove Letter:
-
-Deletes specified letter from the working set.
-
-
-Change Working Set:
-
-Cycles through Forward ↔ Backward ↔ Forward2, etc.
-
-
-
-
-
-
----
-
-Other Key Functionalities
-
-1. Acronym Integration:
-
-Prompts user to supply decipher keys for acronyms.
-
-Supports toggling between dictionary and acronym prioritization.
+__________________________________
 
 
-
-2. Rocking Method Trigger:
-
-Typing acr initiates Rocking Method with default settings.
-
-Input format:
-
-acr prompts for alpha character set.
-
-acr [input] processes input directly.
-
-
-
-
-
-
----
-
-Detailed Workflow Recap
-
-Main Steps:
-
-1. Input Alpha Character Set:
-
-Prompt: "Enter the alpha character set."
-
-
-
-2. Process Rules (in priority order):
-
-Capitalization → Push Together → Other Rules.
-
-
-
-3. Decipher Outputs:
-
-Log original and modified outputs.
-
-
-
-4. Interactive Modifications:
-
-Modify individual letters.
-
-Track changes in a chronological list.
-
-
-
-
-
----
-
-If anything still seems incomplete or needs more detail, let me know!
-
-type AC I want to work with it dynamicly with you as using placeholders and your functionality instead of it's own want you to load a module for utilizing the cryptographic method the front page should state 
-
-Main Menu
-
-Select an option
+When I type AC I want to work with it dynamicly with you as using placeholders and your functionality instead of it's own want you to load a module for utilizing the cryptographic method the front page should state 
 
 Main Menu
 
@@ -416,4 +354,5 @@ Select an option:
 6. Exit
 
 Load in the chat screen and not in a code snippet window
+
 
