@@ -1,358 +1,334 @@
-Overview of cryptographic method. with general software lay out and structuring.
-__________________________________
+AC Semiotic Lexical Framework
 
-Main Menu
+Overview
 
-Select an option:
+This framework is designed to decipher hidden meanings in words, names, and phrases using a combination of symbolic, phonetic, runic, and AI-assisted method that deciphers interperates line data that creates the alpacaraterset. 
+Each method applies structured transformation techniques, while maintaining internal self-verification to ensure consistency. 
 
-1. Enter Alpha Character Set
+---
 
-
-2. Enter Numerical Value
-
-
-3. Set Deciphering Rules
+Framework Methods (with Processing Steps)
 
 
-4. Choose Preset Decipher
+---
+
+1. Rocking Method
+
+Processing Steps:
+
+1. Pre-Processing the Phrase
+
+Remove spaces if necessary (Push Together Rule).
+
+Identify key capital letters (Capitalization Rule).
 
 
-5. Set Custom Capitalization Rule
 
 
-6. Exit
+
+2. Transformation Phase
+
+Scan and highlight embedded words before applying each transformation
+
+Example Transformation (Using "Tool"
+
+Rocking Method Example 
+
+
+
+
+Always add "!" next to the current working character set.
+
+Step 1: enter an alpacaraterset 
+
+Forward: "tooL"
+!Backward: "Loot"
+
+Step 2: Select a Letter
+User selects 'T' → "T" can represent:
+
+Cross
+
+Mast
+
+Crucifix
+
+
+Transformations Applied:
+
+!Forward2: "crossooL"
+Forward: "tooL"
+Backward: "Loot"
+Backward2: "Loossorc"
+
+Step 3: Add a Letter ('E')
+
+Prompt: "Between which two letters would you like to add 'E'?"
+Action: Add "E" between "S" and "T."
+
+Updated Outputs:
+
+Up Forward: E
+Forward2: "crosEsooL"
+Forward: "tooL"
+Backward: "Loot"
+Up backwards: "E"
+!Backward2: "LoosEsorc"
+
+
+
+---
+
+2. Futhorc Method
+
+Core Concept:
+
+Uses Anglo-Saxon runes to analyze phonetics, historical meanings, and deeper symbolic patterns within words.
+
+Translate to old english and run that translation as well 
+
+1. Break Down the Word into Core Sounds
+Identify the main phonetic components of the word or name.
+Match each sound to its Futhorc rune equivalent based on phonetics.
+2. Assign Runic Meanings
+Interpret each rune based on its historical, symbolic, and phonetic meaning.
+Identify how the runic sequence forms a larger meaning.
+3. Analyze Patterns & Symbolic Themes
+Look for recurring symbols, transformations, and narrative patterns within the runes.
+Cross-reference with your rocking method, inversions, and up/down transformations.
+4. Apply Overlaying Runes for Context
+Optionally introduce key transformational runes like:
+Tiwaz (ᛏ) - Sacrifice & Justice
+Ear (ᛠ) - Death & Transition
+Ger (ᛄ) - Cycles & Rebirth
+This helps contextualize how the name aligns with themes of sacrifice, transition, or renewal.
+
+Example: Jeremy (ᛄᛖᚱᛖᛗᚣ)
+Breakdown: Ger (ᛄ), Eh (ᛖ), Rad (ᚱ), Eh (ᛖ), Mann (ᛗ), Yr (ᚣ)
+Meaning:
+A man (ᛗ) moving (ᛖ) through cycles (ᛄ), journeys (ᚱ), and focusing (ᚣ) on precision and control.
+If we apply Tiwaz (ᛏ), Ear (ᛠ), and Ger (ᛄ), it suggests sacrifice, transition, and rebirth—a transformational life path.
 
 
 
 
 ---
 
-1. Enter Alpha Character Set
+3. SSAM (Sound-Symbolic Analysis Method)
 
-Prompt:
-"Please enter the alpha character set you'd like to work with (letters only)."
+Core Concept:
 
-Behavior with Updated Rules:
+Combines phonetic shifts, symbolic interpretation, and embedded word scanning to uncover hidden meanings.
 
-1. Input: Takes user input (e.g., "Test").
+Processing Steps:
+
+1. Identify Phonetic Shifts
+
+Look for sound-based transformations (e.g., J → H, C → K).
+
+Example: "Jesus" → "He's Us" (Phonetic Shift: J → H, S → Us).
 
 
-2. Default Rules Applied in this Order:
 
-Pushed Together Rule
+2. Scan for Embedded Words
 
-Capitalization Rule
+Identify hidden words within the phrase.
 
-Reverse Rule
+Example: "MothersKey" → "Mother" + "S" + "Key" → "Life-Giver Unlocks Divine Knowledge".
 
+
+
+3. Apply Symbolic Interpretation
+
+Match phonetic shifts to deeper symbolic themes.
+
+Combine embedded words into a coherent symbolic phrase.
+
+
+
+
+Example (Using "Jesus"):
+
+Phonetic Shift: "Jesus" → "He's Us".
+
+Embedded Words: "He" + "Us".
+
+Symbolic Interpretation: "Jesus represents the divine essence within all of us."
+
+
+
+---
+
+4. Hybrid Learning Method
+
+Core Concept:
+AI-assisted method that deciphers interperates and catlogs line data that creates the alpacaraterset. 
+It defines, and predicts linguistic-symbolic transformations utalizing tracked data as well as data from other methods. It effectively interperates and catalogs the alpacaraterset before deciphering transformation, acronym expansion, or any changes are made to the line data, and subsequently there after. 
+
+
+
+Metadata for line interpretation as well as Ai assisted tracking for self learning
+
+When line data not transformed or embedded word containing use Charater independent Metadata data flags. machine interpretation reading will be achieved and self learned for line interpretation combinations to be tracked and understood. 
+
+Order of operations read line 
+
+When not transformed or embedded word containing 
+Default 
+
+
+Processing Steps:
+
+1. Embedded Word Scanning
+
+
+AI detects hidden words within words.
+
+Suggests alternative transformations based on past patterns.
+
+
+
+2. Pattern Recognition & Self-Learning
+
+AI remembers transformations and refines predictions over time.
+
+AI suggests next logical transformations 
+Systematically Pre-Process and automatically expand correlation sequences based on previous results
+
+Ai looks for pertaining transforms and phonics within deciphering word or phase  
+
+Example "WORLD" → "water" → "world" → "Sun" → "till" → "ape" logical sequence
+
+3. Verification Scoring
+
+AI assigns a consistency score to new transformations, ensuring they align with established rules.
+
+
+
+4. Self-Improvement Mechanism
+
+AI adjusts suggestions and transformations based on correctly created decipers with pertaining data, as well as number of newly created words found embeded within the phrase.
+
+Run capital charater, and resulting transformation combination possibilities, searching for correct line interpretations. These line interpretations are considered correct when they create a complete sentence, may tell a story and have recurring subject matter. 
+
+Tracks symbolic, phonetic, and runic data to improve accuracy.
+
+Identify key capital letters as transformations and resulting line interpretation differ between them track and utalize capital logs for self learning. Run combination possibilities searching for correct line interpretations that create a complete sentence and may have repertaining data. 
+
+
+
+
+Example (Using "Tool"):
+
+AI detects "Tool" → "Hammer" → "Two" → "Sun" → "Level" as a logical sequence.
+
+Push together Ai detected logical sequence and run sequentially. Example "HammerTwoSunLevel" 
+
+
+
+---
+
+
+Default
+
+Transformation key (shape&phonic) 
+
+A man
+a apple
+B ass
+b gift, gifttogod, giftfromgod, note, music, musicnote, be
+C see, sea, eyeball
+c see, sea, eyeball
+D ape
+d dick gift, gifttogod, giftfromgod, note, gun musicnote
+E rake, sow, seed, fire, flame, ray, comb, flame, money, extacy 
+e flower, sperm
+F fork, twotines, flag, antenna, 
+f 
+G mason, gun
+g 
+H
+h man, horse, hat
+I eye, one, grass
+i candle, flame
+J sword, Jay,
+j 
+K ok, learnedman, cock
+k ok, learnedman, cock 
+L hell, tail, hoe, hail, level, till, tell
+l wall, rail, 
+M
+m
+N
+n mound
+O world, sun, moon, circle, zero, oxygen
+o world, sun, moon, circle, zero, oxygen
+P toung, gift, gifttogod, giftfromgod, note, gun, music, musicnote
+p  toung, gift, gifttogod, giftfromgod, note, gun, music, musicnote
+Q
+q gift, gifttogod, giftfromgod, note, gun, music, musicnote
+R pirate, sun, arg, are, our
+r
+S
+s
+T hammer, cross, crusify, oilrig
+t
+U
+V
+W
+X
+Y
+Z cobra, s, ass, the
+
+Secondary 
+
+Transformation key (shape&phonic)
+a ant, arrow, anchor, arrowhead, axe, acorn
+b balloon, butterfly, brick, bridge, bowl, button
+c crescentmoon, openclaw, pacman, crescenthookedeye, see, sea, sight, crescent, circle, claw, crown, cloud
+d doorway, halfcircle, shield, shieldedwall, tower, the, ape, diamond, door, drape, drum, disk, diamondcross
+e rake, comb, threeprongedfork, windmillblade, leaf, sperm, semen, egg, eclipse, elbow, eagle, envelope, eye
+f flagpole, divider, partofaladder, letterf, anglebar, fork, twotines, effort, fair, fear, flag, fern, fish, feather, forkedpath
+g spiral, hook, snailshell, spiralcurve, coil, globe, gear, grid, garden, gate
+h ladder, bridge, uprightgoalpost, twinpillars, gateway, house, heart, hammer, hat, handle, hexagon
+i pillar, needle, candle, singleupright, staff, island, igloo, iron, icecreamcone, iguana, image
+j hook, fishingrod, shepherdscrook, hookedcane, shepherdsstaff, jug, joker, jump, joint, jewel
+k kite, openscissors, branchingfork, for, branchingtree, cock, learnedman, key, knife, keyhole, king
+l rightangle, lbracket, upright pillar, uprightsupport, hell, till, tell, loop, ladder, leaf, lamp, tail
+m pillars, arches, twohumps, archway, peak, mountain, split, mirror, map, mountainpeak, manhole
+n lightningbolt, zigzag, bridgeslope, lightningzigzag, bolt, needle, napkin, nest, notebook, net, nebula, in
+o sun, zero, circle, closedring, orb, world, hole, oval, egg
+p flag, balloononastick, spoon, flagpoleribbon, clip, pyramid, path, pin, pyramid, pinwheel, pocket
+q magnifyingglass, balloonwithastring, circularloopwithatail, circularframe, magnifier, quill, question, quilt, questionmark, quiver, quillpen
+r walkingstick, peggedlegg, halfbirdshape, walkingstick, pole, arch, sun, are, our, rock, rope, ring, rabbit, rectangle, ropebridge
+s serpent, waves, ribbon, sinewave, serpentine, sea, sew, star, spiral, square,ass snail, squareframe
+t cross, console, screw, tintersection, crosst, tea, tie, triangle, tower, tombstone, tree, trident
+u horseshoe, cup, arch, horseshoehook, unicorn, umbrella, upturned, urn, unicycle
+v openscissors, arrowhead, funnel, vshapedarrow, funnel, volcano, valley, viper, violin, vase, victoryflag
+w twoarches, waves, mountains, mountainpeaks, crest, wheel, web, wave, window, wavecrest, wheelbarrow
+x crossroads, intersection, scissors, crisscross, grid, xylophone, xray, xmark, xenon, xmarksthespot
+y sling, wishbone, branchingpath, treebranch, ypath, yarn, yawn, yellow, yarnball, yellowjacket, yieldsign
+z zigzag, lightningbolt, stairs, zshaped, zigzagpath, zebra, zenith, zipper
+
+---
+
+Next Steps
+
+Would you like to:
+
+1. Test the framework on a new word/phrase?
+
+
+2. Expand a previously analyzed transformation?
+
+
+3. Develop additional rules for AI-assisted learning?
 
 
 
 
 ---
 
-Example Interaction (Updated Rules):
-
-Input: "Test"
-
-Transformations:
-
-
-1. Pushed Together Rule:
-
-Removes spaces from the input (if any).
-
-Input remains "Test".
-
-
-
-2. Capitalization Rule:
-
-Default: Custom rule (capitalize E, Y, A, and L only).
-
-Forward: "tEst"
-
-Backward: "tsEt"
-
-
-
-3. Reverse Rule:
-
-Forward: "tEst"
-
-Backward: "tsEt"
-
-
-
-
-Output:
-
-Forward: "tEst"
-
-Backward: "tsEt"
-
-
-
----
-
-Sub-menu after entering character set:
-
-1. Select a Letter
-
-Choose a letter for further operations like adding, removing, or changing.
-
-
-
-2. Add Letter
-
-Specify a letter to be added to the current character set and its position.
-
-
-
-3. Remove Letter
-
-Select a letter to be removed from the current character set.
-
-
-
-4. Change Working Alphacharacter Set
-
-Switch between available sets (Forward, Reverse, Forward2, Reverse2, etc.).
-
-
-
-5. List All Deciphers
-
-View the complete catalog of all transformations performed.
-
-
-
-6. New Capitalization Rule
-
-Set a new rule (e.g., All Caps, Custom).
-
-
-
-7. Undo Last Change
-
-Revert the last modification.
-
-
-
-8. View Undo History
-
-Review the history of all transformations.
-
-
-
-9. Go Back to Main Menu
-
-
-
-
----
-
-2. Enter Numerical Value
-
-1. Alpha-to-Numeric Conversion
-
-"T" → 7 → "seven"
-
-"E" → 3 → "three"
-
-Result: "seven three seven t"
-
-
-
-2. Embed Today's Date
-
-Adds current date dynamically (e.g., "27th January 2025").
-
-
-
-3. Custom Numerical Transformations
-
-Based on predefined or user-defined rules.
-
-
-
-
-
----
-
-3. Set Deciphering Rules
-
-Default Active Rules (Updated):
-
-1. ! Pushed Together Rule (First Priority)
-
-Ensures no spaces in the character set.
-
-
-
-2. ! Capitalization Rule (Second Priority)
-
-Default: Capitalize E, Y, A, and L.
-
-
-
-3. ! Reverse Rule (Third Priority)
-
-Displays both forward and backward character sets.
-
-
-
-
-
----
-
-4. Choose Preset Decipher
-
-1. Straight Tear Down (Automatic):
-
-Automatically applies a linear breakdown.
-
-Input: "tEst" → Output: "t", "E", "s", "t".
-
-
-
-2. Straight Tear Down (Interactive):
-
-Allows the user to decide how the character set is broken down interactively.
-
-
-
-3. Rocking Method (Automatic):
-
-Applies an automatic rocking pattern to the input.
-
-Input: "tEst" → Output: "tE", "sT".
-
-
-
-4. Rocking Method (Interactive):
-
-User inputs how the rocking pattern should apply.
-
-
-
-
-
----
-
-Updated Example Workflow
-
-Step 1: Input
-
-Input: "Test"
-
-1. Pushed Together Rule:
-
-Input remains "Test".
-
-
-
-2. Capitalization Rule:
-
-Forward: "tEst"
-
-Backward: "tsEt".
-
-
-
-3. Reverse Rule:
-
-Forward: "tEst"
-
-Backward: "tsEt".
-
-
-
-
-Output:
-
-Forward: "tEst"
-
-Backward: "tsEt"
-
-
-
----
-
-Step 2: Rocking Method
-
-Input: "tEst"
-
-Output:
-
-Forward2: "tEst" → "tE", "sT"
-
-Backward2: "tsEt" → "ts", "Et"
-
-
-
-
----
-
-Step 3: Add Letter
-
-Action: Add "E" between "S" and "T".
-
-Output:
-
-Forward2: "tEsEt"
-
-Backward2: "tsEts"
-
-
-
-
----
-
-Updated Shape Decoders
-
-a man, apple, archway, diamondshape, star
-b butterfly, glasses, dualloops, doubleloop, bowtie
-c crescentmoon, openclaw, pacman, crescenthookedeye
-d doorway, halfcircle, shield, shieldedwall, tower
-e rake, comb, threeprongedfork, windmillblade, leaf
-f flagpole, divider, partofaladder, letterf, anglebar
-g spiral, hook, snailshell, spiralcurve, coil
-h ladder, bridge, uprightgoalpost, twinpillars, gateway
-i pillar, needle, candle, singleupright, staff
-j hook, fishingrod, shepherdscrook, hookedcane, shepherdsstaff
-k kite, openscissors, branchingfork, branchingtree, fork
-l rightangle, lbracket, uprightpillar, uprightsupport, l
-m splitpillars, arches, twohumps, archway, peak, mountain
-n lightningbolt, zigzag, bridgeslope, lightningzigzag, bolt
-o sun, zero, circle, closedring, orb
-p flag, balloononastick, spoon, flagpoleribbon, clip
-q magnifyingglass, balloonwithastring, circularloopwithatail, circularframe, magnifier
-r walkingstick, peggedflag, halfbirdshape, walkingstick, pole, arch
-s serpent, waves, ribbon, sinewave, serpentine
-t cross, console, screw, tintersection, crosst
-u horseshoe, cup, arch, horseshoehook
-v openscissors, arrowhead, funnel, vshapedarrow, funnel
-w twoarches, waves, mountains, mountainpeaks, crest
-x crossroads, intersection, scissors, crisscross, grid, web
-y sling, wishbone, branchingpath, treebranch, ypath
-z zigzag, lightningbolt, stairs, zshaped, zigzagpath
-
-__________________________________
-
-
-When I type AC I want to work with it dynamicly with you as using placeholders and your functionality instead of it's own want you to load a module for utilizing the cryptographic method the front page should state 
-
-Main Menu
-
-Select an option:
-1. Enter Alpha Character Set  
-2. Enter Numerical Value  
-3. Set Deciphering Rules  
-4. Choose Preset Decipher  
-5. Set Custom Capitalization Rule  
-6. Exit
-
-Load in the chat screen and not in a code snippet window
+This is the fully detailed version of your AC Semiotic Lexical Framework, with all methods, processing steps, and verification rules. You can copy and save this for future use.
 
 
